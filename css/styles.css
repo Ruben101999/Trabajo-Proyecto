@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Averta CY', sans-serif;
+}
+
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(233, 231, 145);
+    font-weight: 100%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#donde-estamos{
+    text-align: center;
+    width: 100%;
+}
+
+.background{
+    background-image: url("https://escolapiasmiraflores.org/wp-content/uploads/2019/02/Colegio-miraflores-zaragoza.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+#oscuro.before{
+    content:'';
+    position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+#oscuro{
+    font-size: 60px;
+	color: rgb(105, 56, 56);
+	position: relative 
+}
+
+#plugins{
+    padding: 10%;
+}
+
+#botones-dar{
+    padding-top: 30px;
+    text-align: center;
+}
+
+#letras.h1{
+    color:rgb(105, 92, 92);
+}
+
+#letras{
+    text-align:justify;
+    padding: 5%;
+}
+
+
+h1,h2,h6{
+    color:rgb(143, 82, 82);
+    text-align: center;
+    font-weight: black;
+   
+}
+
+#centrado{
+    padding-top: 10%;
+    width: 300px;
+    height: 350px;
+}
+
+#infante{
+    width: 350px;
+    height: 250px;
+}
+
+#infantil{
+    padding: 10%;
+}
+
+#mitad.h5{
+    font-weight:100;
+}
+
+#h3{
+    font-weight: normal;  
+    padding-top: 5%;
+    text-align: justify;
+}
+
+p{
+    text-align: center;
+    font-weight: black;
+}
+
+#letras.ul{
+    font-weight: normal;  
+}
+
+#cuerpo{
+    height: 50px;
+}
+
+img{
+    text-align: center;
+    width: 220px;
+	height: 160px; 
+}
+
+
+#tecnologias{
+    padding-bottom: 20%;
+}
+
+#foto.img{
+    padding-bottom: 70%;
+
+}
+
+#objetivo{
+    text-align: center;
+    font-weight: black;
+}
+
+#herramientas{
+    width: 350px;
+    height: 250px;
+}
+
+#primaria{
+    width: 270px;
+    height: 170px;
+}
+
+.one-column{
+    text-align: center;
+    padding:3%;
+    line-height: 150%;  
+}
+
+.two-column{
+    text-align: center;
+    padding: 3%;
+    width: 50%;
+    float:left;
+    line-height: 150%;  
+}
+
+#foto{
+    padding-bottom: 30%;
+}
+
+
+.derecha{
+    float:  left;
+    width: 50%;
+   
+}
+
+#links{
+    text-align: center;
+
+}
+
+#abajo{
+    text-align:center;
+}
+
+#abajo.img{
+    text-align: center;
+    width: 15%;
+    width: 150px;
+	height: 100px;
+	border: 3px solid #e2e6df;
+    padding-right: 5%;
+}
+
+#links.a{
+    float: left;
+}
+
+
+#derecha{
+    padding-top: 15%;
+}
+
+.derecha{
+    padding-top: 5%;
+    background: rgb(196, 74, 74);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.izquierda{
+    background:rgb(190, 155, 155);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#foot-1{
+    width: 40%;
+    float: left;
+    padding-left: 20%;
+    padding-bottom: 2%;
+    padding: 5px;
+    background-color: grey;   
+}
+
+#foot-2{
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.footer {
+    background: lightgrey;
+    width: 100%;
+    font-family: "Open Sans";
+    padding-bottom: 40px;
+    text-align: center;
+    
+}
+
+.footer-bottom{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(221, 37, 37);
+    padding-top: 3%;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align:center;
+}
+
+.footer-content.h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform:capitalize;
+    line-height: 3rem;
+}
+
+.footer-content.p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
