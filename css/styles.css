@@ -262,3 +262,23 @@ img{
     line-height: 28px;
     font-size: 14px;
 }
+
+/*Responsive layout - makes the three columns stack on top of watch*/
+
+@media screen and (max-width:900px) {
+    .header {
+        font-size: 300%;
+    }
+    .one-column h1 {
+        font-size: 6.5vw;
+    }
+    .two-column p {
+        font-size: 4.2vw;
+    }
+    .two-column {
+        width: 100%;
+    }
+    .four-column {
+        width: 100%;
+    }
+}
